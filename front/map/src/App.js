@@ -7,12 +7,9 @@ const App = ()=> {
   
   return (
     <>
-    <div className="nav">
-    <Nav/>
-    </div>
     <div>
-    <section className="article">
-
+    <section className="navigate">
+    <Nav/>
     </section>
     <section className="component">
     <Route exact path="/" component = {Home}/>
