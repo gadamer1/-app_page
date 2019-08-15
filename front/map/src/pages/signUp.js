@@ -6,9 +6,12 @@ import {Redirect} from 'react-router-dom'
 const SignUp = ()=>{
   
     const {user} = useSelector(state => state.user)
+    console.log(user)
     return(
-        <div>{user ? <Redirect to= "/"/> : <LoginForm/> }<div>{user}</div></div>
-        
+        <div className="content">
+        <div className="title">회원가입</div>
+        <div>{user ? <Redirect to= "/"/> : <LoginForm/> }</div>
+        </div>
     )
 }
 

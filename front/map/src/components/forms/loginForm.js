@@ -50,7 +50,7 @@ const LoginForm = ()=>{
                 <label htmlFor="아이디">패스워드 확인</label>
                 <input type="password" value ={passwordCheck} onChange={onChangePasswordCheck} placeholder='passwordCheck' required />
                 {passwordError && <div id="passwordError" style={{color: 'red'}}>패스워드가 일치하지 않습니다</div>}
-                <button htmlType ="submit" >등록</button>
+                <button htmltype ="submit" >등록</button>
             </form>
         </div>
     )
