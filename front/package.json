@@ -1,0 +1,37 @@
+{
+  "name": "map-app-page",
+  "version": "0.0.1",
+  "description": "\"show google map\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "fastfastfastfast",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "babel": "^6.23.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "google-map-react": "^1.1.4",
+    "immer": "^3.2.0",
+    "next": "^9.0.4",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^3.0.0",
+    "node-sass": "^4.12.0",
+    "parcel": "^1.12.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "webpack": "^4.39.2"
+  }
+}

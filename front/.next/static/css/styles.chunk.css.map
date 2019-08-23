@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./styles/style.scss"],"sourcesContent":[".tap {\n  display: inline-block;\n  float: right; }\n  .tap .label {\n    border: 1px solid; }\n"],"mappings":"AAAA;AACA;AACA;AACA;AACA;;","sourceRoot":""}
